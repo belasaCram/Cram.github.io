@@ -21,18 +21,12 @@
       -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet" />
 
     <!-- 
       - Material icon link
      -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <!-- 
         - CSS link
@@ -43,29 +37,13 @@
   <body>
     <header class="topbar">
       <a href="#" class="logo">
-        <img
-          src="./assets/images/Logo_dark.png"
-          alt="Devfolio"
-          width="145"
-          height="32"
-          class="dark"
-        />
-        <img
-          src="./assets/images/Logo_light.png"
-          alt="Devfolio"
-          width="145"
-          height="32"
-          class="light"
-        />
+        <img src="./assets/images/Logo_dark.png" alt="Devfolio" width="145" height="32" class="dark" />
+        <img src="./assets/images/Logo_light.png" alt="Devfolio" width="145" height="32" class="light" />
       </a>
 
       <button class="icon-btn theme-btn" data-theme-btn>
-        <span class="material-symbols-outlined dark" aria-hidden="true">
-          dark_mode</span
-        >
-        <span class="material-symbols-outlined light" aria-hidden="true">
-          light_mode</span
-        >
+        <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode</span>
+        <span class="material-symbols-outlined light" aria-hidden="true"> light_mode</span>
 
         <div class="state-layer"></div>
       </button>
@@ -79,30 +57,16 @@
 
         <section class="section hero">
           <div class="container">
-            <figure
-              class="hero-banner img-holder"
-              style="--width: 240; --height: 240"
-            >
-              <img
-                src="./assets/images/profile.png"
-                alt="profile"
-                width="240"
-                height="240"
-                class="img-cover"
-              />
+            <figure class="hero-banner img-holder" style="--width: 240; --height: 240">
+              <img src="./assets/images/profile.png" alt="profile" width="240" height="240" class="img-cover" />
             </figure>
 
             <div class="hero-content">
-              <span class="label-large section-subtitle"
-                >Software Engineer</span
-              >
+              <span class="label-large section-subtitle">Software Engineer</span>
 
               <h1 class="display-small">CRAM SONEL</h1>
 
-              <p class="body-large section-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur placeat cupiditate facilis, et quo eligendi magni.
-              </p>
+              <p class="body-large section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur placeat cupiditate facilis, et quo eligendi magni.</p>
 
               <div class="btn-wrapper">
                 <a href="mailto:studentwork839@gmail.com" class="chip">
@@ -132,29 +96,19 @@
         <div class="article">
           <div class="about-card">
             <h2 class="card-title title-medium">About</h2>
-            <p class="body-medium card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+            <p class="body-medium card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <ul class="about-list">
               <li class="list-item">
-                <span class="material-symbols-outlined" aria-hidden="true">
-                  location_on
-                </span>
+                <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
                 <span class="label-medium">Rizal, Philippines</span>
               </li>
               <li class="list-item">
-                <span class="material-symbols-outlined" aria-hidden="true">
-                  work
-                </span>
+                <span class="material-symbols-outlined" aria-hidden="true"> work </span>
                 <span class="label-medium">Mnleistung</span>
               </li>
               <li class="list-item">
-                <span class="material-symbols-outlined" aria-hidden="true">
-                  captive_portal
-                </span>
-                <span class="label-medium">
-                  https://puissanceDeCode.github.io
-                </span>
+                <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                <span class="label-medium"> https://puissanceDeCode.github.io </span>
               </li>
             </ul>
           </div>
@@ -171,18 +125,121 @@
                 <div class="state-layer"></div>
               </button>
 
-              <button class="tab-btn active" data-tab-btn="resume">
+              <button class="tab-btn" data-tab-btn="resume">
                 <span class="tab-text title-small">Resume</span>
 
                 <div class="state-layer"></div>
               </button>
 
-              <button class="tab-btn active" data-tab-btn="contact">
+              <button class="tab-btn" data-tab-btn="contact">
                 <span class="tab-text title-small">Contact</span>
 
                 <div class="state-layer"></div>
               </button>
             </div>
+
+            <!-- 
+              - #PROJECT
+             -->
+
+            <section class="section tab-content">
+              <div class="container">
+                <div class="project-list">
+                  <div class="card">
+                    <figure class="card-banner img-holder" style="--width: 334; --height: 180">
+                      <img src="./assets/images/project-1.png" alt="image" class="img-cover" width="334" height="180" />
+                    </figure>
+
+                    <div class="card-content">
+                      <span class="label-large card-subtitle"> Web App </span>
+
+                      <h3 class="title-large card-title">Sample Application</h3>
+                    </div>
+                    <a href="#" class="state-layer"></a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- 
+              - #RESUME
+             -->
+
+            <section class="section tab-content resume-tab active" data-tab-content="resume">
+              <div class="container">
+                <h2 class="section-title title-small">Experience</h2>
+                <ul class="list">
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">Software Developer</p>
+                      <span class="label-medium card-subtitle">2018 - Present</span>
+                      <span class="body-medium card-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </span>
+                    </div>
+                  </li>
+                </ul>
+
+                <h2 class="section-title title-small">Education</h2>
+
+                <ul class="list">
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                      <span class="label-medium card-subtitle">2015 - 2016</span>
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                      <span class="label-medium card-subtitle">2015 - 2016</span>
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                      <span class="label-medium card-subtitle">2015 - 2016</span>
+                    </div>
+                  </li>
+
+                  <li class="resume-item">
+                    <div class="resume-card">
+                      <p class="body-large">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                      <span class="label-medium card-subtitle">2015 - 2016</span>
+                    </div>
+                  </li>
+                </ul>
+
+                <h2 class="section-title title-small">Skills and Technologies</h2>
+
+                <ul class="resume-bottom-list">
+                  <li class="resume-bottom-item">
+                    <img src="./assets/images/html5.svg" alt="icon" width="28" height="28" loading="lazy" class="icon" />
+
+                    <span class="label-medium">HTML5</span>
+                  </li>
+                  <li class="resume-bottom-item">
+                    <img src="./assets/images/html5.svg" alt="icon" width="28" height="28" loading="lazy" class="icon" />
+
+                    <span class="label-medium">HTML5</span>
+                  </li>
+                  <li class="resume-bottom-item">
+                    <img src="./assets/images/html5.svg" alt="icon" width="28" height="28" loading="lazy" class="icon" />
+
+                    <span class="label-medium">HTML5</span>
+                  </li>
+                  <li class="resume-bottom-item">
+                    <img src="./assets/images/html5.svg" alt="icon" width="28" height="28" loading="lazy" class="icon" />
+
+                    <span class="label-medium">HTML5</span>
+                  </li>
+                </ul>
+              </div>
+            </section>
           </div>
         </div>
       </article>
